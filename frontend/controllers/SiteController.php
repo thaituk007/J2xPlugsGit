@@ -146,6 +146,30 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays about page.
+     *
+     * @return mixed
+     */
+    public function actionLine()
+    {
+        return $this->render('line');
+    }
+
+    public function actionCcurl()
+    {
+        return $this->render('ccurl');
+    }
+
+    public function actionWttr()
+    {
+        return $this->render('wttr');
+    }
+
+    public function actionCovid()
+    {
+        return $this->render('covid');
+    }
+    /**
      * Signs user up.
      *
      * @return mixed
